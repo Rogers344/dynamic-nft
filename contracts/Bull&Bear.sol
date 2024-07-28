@@ -47,7 +47,7 @@ contract BullBear is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
         // Increment it so next time it's correct when we call .current()
         _tokenIdCounter.increment();
 
-        // Mint the token
+        // Mint the token..
         _safeMint(to, tokenId);
 
         // Default to a bull NFT
