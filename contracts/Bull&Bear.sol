@@ -15,7 +15,7 @@ import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 // ./interfaces/KeeperCompatibleInterface.sol
 import "@chainlink/contracts/src/v0.8/KeeperCompatible.sol";
 
-// Dev imports. This only works on a local dev network
+// Dev imports. This onlyworks on a local dev network
 // and will not work on any test or main livenets.
 import "hardhat/console.sol";
 
